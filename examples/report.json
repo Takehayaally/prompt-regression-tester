@@ -1,0 +1,17 @@
+{
+  "suite": "support-bot-baseline",
+  "results": [
+    {
+      "name": "refund answer keeps policy boundary",
+      "passed": true,
+      "failures": [],
+      "chars": 139
+    },
+    {
+      "name": "pricing answer avoids fake discount",
+      "passed": true,
+      "failures": [],
+      "chars": 97
+    }
+  ]
+}
