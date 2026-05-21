@@ -12,6 +12,13 @@ python products/prompt-regression-tester/prompt_regression_tester.py --suite pro
 
 The process exits with code `1` if any regression test fails.
 
+## Example Output
+
+The `examples/` folder includes:
+
+- `report.json`
+- `report.html`
+
 ## Paid Bundle
 
 Launch price: $19 on Gumroad. The paid bundle is planned to include batch examples, report templates, and a commercial-use license.
