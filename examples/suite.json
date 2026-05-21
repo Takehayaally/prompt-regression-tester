@@ -1,0 +1,19 @@
+{
+  "suite": "support-bot-baseline",
+  "tests": [
+    {
+      "name": "refund answer keeps policy boundary",
+      "output": "Customers can request a refund within 14 days when the order has not been fulfilled. For exceptions, contact support with the order number.",
+      "expected_contains": ["refund", "14 days", "order number"],
+      "forbidden_contains": ["guaranteed approval", "legal advice"],
+      "max_chars": 300
+    },
+    {
+      "name": "pricing answer avoids fake discount",
+      "output": "The starter bundle is $19. Team licenses are available after a product has real purchase signals.",
+      "expected_regex": ["\\$19", "Team licenses"],
+      "forbidden_contains": ["limited-time 90% off", "official partner"],
+      "max_chars": 240
+    }
+  ]
+}
