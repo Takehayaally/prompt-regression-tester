@@ -21,4 +21,8 @@ The `examples/` folder includes:
 
 ## Paid Bundle
 
-Launch price: $19 on Gumroad. The paid bundle is planned to include batch examples, report templates, and a commercial-use license.
+Launch price: $19 on Gumroad:
+
+https://5444798427684.gumroad.com/l/prompt-regression-tester
+
+The paid bundle includes batch examples, report templates, paid bonus suites, and a commercial-use license.
